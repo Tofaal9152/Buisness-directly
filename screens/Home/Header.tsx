@@ -3,22 +3,22 @@ import Ionicons from "@expo/vector-icons/Ionicons";
 import { Image, Text, TextInput, View } from "react-native";
 const Header = () => {
   return (
-    <View className="bg-violet-500 p-4 rounded-b-xl">
+    <View className="bg-yellow-500 p-4 rounded-b-xl">
       <View className="flex flex-row justify-between items-center mb-4">
         {/* Profile Section */}
         <View className="flex flex-row items-center gap-2">
           <View className=" rounded-full w-14 h-14 flex justify-center items-center">
             <Image
-              className="w-12 h-12 border-2 border-violet-800 rounded-full"
+              className="w-12 h-12 border-2 border-white rounded-full"
               source={{
-                uri: "https://www.tofaal.me/_next/image?url=%2FTofaalViva.jpg&w=256&q=75",
+                uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV8mkol4ZapnjpzyWUfbq1_HRsiWyLoc3o-g&s",
               }}
             />
           </View>
           <View>
             <Text className="text-white text-sm font-semibold">Welcome</Text>
             <Text className="text-white text-lg font-bold">
-              Md Tofaal Ahmed
+              Mizanur Rahman
             </Text>
           </View>
         </View>

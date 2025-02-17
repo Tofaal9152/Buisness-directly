@@ -10,7 +10,7 @@ const PopularBuisness = () => {
         <Text className="text-xl  font-semibold text-gray-800">
           Popular Buisness
         </Text>
-        <Text className="text-medium font-medium text-violet-500 ">
+        <Text className="text-medium font-medium text-yellow-500 ">
           View All
         </Text>
       </View>
@@ -55,7 +55,7 @@ const PopularBuisness = () => {
               {/* Shopping Button */}
 
               <Link
-                className="mt-4 bg-violet-500 rounded-md  py-2 text-center"
+                className="mt-4 bg-yellow-500 rounded-md  py-2 text-center"
                 href={`/buisness-detail/[details]`}
               >
                 <Text className="text-white font-medium">See Details</Text>

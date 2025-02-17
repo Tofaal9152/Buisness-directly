@@ -19,12 +19,12 @@ export default function RegisterScreen() {
   };
 
   return (
-    <View className="flex-1 bg-white justify-center  ">
-      <View className="p-8 m-3  items-center border border-gray-300 rounded-md">
+    <View className="flex-1 bg-white justify-center">
+      <View className="p-8 m-3  items-center  rounded-md">
         {/* <Text className="text-2xl font-bold text-gray-800 mb-8">Login</Text> */}
         <Image
-          source={require("@/assets/images/icon.png")}
-          className="size-12 mb-4"
+          source={require("@/assets/images/logo.jpg")}
+          className="size-16 mb-4"
           alt=""
         />
         <TextInput
@@ -49,18 +49,18 @@ export default function RegisterScreen() {
           className="w-full bg-white p-4 mb-6 rounded-md border border-gray-300 shadow-sm"
         />
 
-        <Link href={"/login"}
+        <TouchableOpacity
           onPress={handleLogin}
-          className="w-full bg-[#228B22] p-4 rounded-md"
+          className="w-full bg-yellow-500 p-4 rounded-md"
         >
-          <Text className="text-center text-white font-semibold">Login</Text>
-        </Link>
+          <Text className="text-center text-white font-semibold">Register</Text>
+        </TouchableOpacity>
         <View className="flex flex-row items-center mt-4 gap-1">
           <Text className="text-gray-600">{"Already have an account?"}</Text>
           <TouchableOpacity>
             <Link
               href="/login"
-              className="text-[#228B22] text-center underline"
+              className="text-yellow-500 text-center underline"
             >
               Login
             </Link>

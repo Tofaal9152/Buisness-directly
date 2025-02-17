@@ -8,7 +8,7 @@ const Category = () => {
       {/* Section Title */}
       <View className="flex px-4 flex-row justify-between items-center">
         <Text className="text-xl  font-semibold text-gray-800">Category</Text>
-        <Text className="text-medium font-medium text-violet-500 ">
+        <Text className="text-medium font-medium text-yellow-500 ">
           View All
         </Text>
       </View>

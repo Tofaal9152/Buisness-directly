@@ -9,7 +9,7 @@ export default function HomeScreen() {
     <ScrollView showsVerticalScrollIndicator={false} className="flex-1 bg-white  ">
       <Header />
       <SLider />
-      <Category />
+      {/* <Category /> */}
       <PopularBuisness />
     </ScrollView>
   );

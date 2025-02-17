@@ -144,7 +144,7 @@ export default function BusinessDetails() {
           className="border border-slate-400 h-20 px-3 rounded-md mx-4"
         />
 
-        <TouchableOpacity className="bg-violet-500 p-3 rounded-md mx-4 mt-4 mb-4">
+        <TouchableOpacity className="bg-yellow-500 p-3 rounded-md mx-4 mt-4 mb-4">
           <Text className="text-white text-center">Submit</Text>
         </TouchableOpacity>
         {reviews.map((review) => (

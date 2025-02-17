@@ -27,31 +27,30 @@ export default function ExploreScreen() {
       </View>
 
       {/* Icons Row */}
-      <View className="flex flex-row justify-between mb-6">
-        {/* Books Icon */}
+      {/* <View className="flex flex-row justify-between mb-6">
+
         <TouchableOpacity className="items-center">
           <FontAwesome5 name="book" size={24} color="black" />
           <Text className="text-sm">Books</Text>
         </TouchableOpacity>
 
-        {/* Fashion Icon */}
         <TouchableOpacity className="items-center">
           <MaterialIcons name="style" size={24} color="black" />
           <Text className="text-sm">Fashion</Text>
         </TouchableOpacity>
 
-        {/* Favorites Icon */}
+  
         <TouchableOpacity className="items-center">
           <Entypo name="heart" size={24} color="black" />
           <Text className="text-sm">Favorites</Text>
         </TouchableOpacity>
 
-        {/* Search Icon */}
+     
         <TouchableOpacity className="items-center">
           <Ionicons name="notifications-sharp" size={24} color="black" />
           <Text className="text-sm">notifications</Text>
         </TouchableOpacity>
-      </View>
+      </View> */}
 
       {/* FlatList of Images and Items */}
       <Text className="text-xl font-semibold text-gray-800 mb-4">
@@ -93,7 +92,7 @@ export default function ExploreScreen() {
             {/* Shopping Button */}
 
             <Link
-              className="mt-4 bg-violet-500 rounded-md  py-2 text-center"
+              className="mt-4 bg-yellow-500 rounded-md  py-2 text-center"
               href={`/buisness-detail/[details]`}
             >
               <Text className="text-white font-medium">See Details</Text>

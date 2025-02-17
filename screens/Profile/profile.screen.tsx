@@ -10,8 +10,8 @@ const ProfileScreen = () => {
       <View className="flex items-center mb-8">
         <Image
           source={{
-            uri: "https://www.tofaal.me/_next/image?url=%2FTofaalViva.jpg&w=256&q=75",
-          }} // Replace with dynamic image URL
+            uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV8mkol4ZapnjpzyWUfbq1_HRsiWyLoc3o-g&s",
+          }}
           className="w-32 h-32 rounded-full border-4 border-gray-300 mb-4"
         />
         <Text className="text-2xl font-semibold text-gray-800">John Doe</Text>
